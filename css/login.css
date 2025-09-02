@@ -25,6 +25,11 @@
     padding: 3rem;
 }
 
+.login-input[type=email] ,
+.login-input[type=password] {
+    background-color: var(--grey-light-01);
+}
+
 footer {
     margin-top: auto;
     padding: 1.25rem;

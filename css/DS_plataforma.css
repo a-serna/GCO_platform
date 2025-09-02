@@ -73,10 +73,10 @@ h1,
 }
 
 /* Forms */
-input[type=email],
-input[type=password] {
+/* input[type=email] .login,
+input[type=password] .login {
     background-color: var(--grey-light-01);
-}
+} */
 
 input::placeholder {
     font-size: 1rem;
