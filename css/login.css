@@ -1,0 +1,38 @@
+.body-login{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    flex-grow: 1;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.login-bg {
+    background-image: url('../Assets/brands-login.jpg');
+    border-radius: 24px;
+    /* min-height: calc(100vh - 5%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1.25rem;
+}
+
+
+@media (max-width: 767.98px) {
+    .login-bg {
+        display: none;
+    }
+}

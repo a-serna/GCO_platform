@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset valores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables de color */
+:root {
+    --color-blue-americanino: #18254D;
+    --color-blue-light: #A8D4E7;
+    --color-blue-light-2: #7BC7E8;
+    --color-black: #1D1D1B;
+    --color-white: #F6F6F6;
+    --grey-light-01: #D2D2D2;
+    --tamano-fuente: 16px;
+    --border-1: 0.75rem;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--tamano-fuente);
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--color-white);
+}
+
+/*Headings*/
+p {
+    font-size: 1rem;
+}
+
+h6,
+.h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h5,
+.h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h4,
+.h4 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+h3,
+.h3 {
+    font-size: 2.222rem;
+    font-weight: 600;
+}
+
+h2,
+.h2 {
+    font-size: 2.556rem;
+    font-weight: 700;
+}
+
+h1,
+.h1 {
+    font-size: 2.889rem;
+    font-weight: 700;
+}
+
+/* Forms */
+input[type=email],
+input[type=password] {
+    background-color: var(--grey-light-01);
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.button-primary {
+    max-width: 320px;
+    min-width: 180px;
+    background-color: var(--color-blue-light);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: var(--border-1);
+    border: none;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+}
+
+.button-primary:hover {
+    background-color: var(--color-blue-light-2);
+}
+
+/* general */
