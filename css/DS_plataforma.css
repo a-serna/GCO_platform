@@ -10,11 +10,13 @@
 /* Variables de color */
 :root {
     --color-blue-americanino: #18254D;
-    --color-blue-light: #A8D4E7;
+    --color-blue-light-1: #A8D4E7;
     --color-blue-light-2: #7BC7E8;
     --color-black: #1D1D1B;
     --color-white: #F6F6F6;
     --color-grey-light-1: #D2D2D2;
+    --color-grey-light-2: #ACACAC;
+    --color-grey-light-3: #838382;
     --tamano-fuente: 16px;
     --border-1: 0.75rem;
 }
@@ -34,6 +36,7 @@ body {
     font-style: normal;
     font-weight: 400;
     background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 /*Headings*/
@@ -67,8 +70,9 @@ h3,
 
 h2,
 .h2 {
-    font-size: 2.556rem;
-    font-weight: 700;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
 }
 
 h1,
@@ -78,23 +82,22 @@ h1,
 }
 
 /* Forms */
-/* input[type=email] .login,
-input[type=password] .login {
-    background-color: var(--color-grey-light-1);
-} */
+input[type=text]{
+    background-color: var(--color-white);
+}
 
 input::placeholder {
     font-size: 1rem;
 }
 
 input[type=text]:focus {
-    background-color: lightblue;
+    border: 2px solid lightblue;
 }
 
 .button-primary {
     max-width: 320px;
     min-width: 180px;
-    background-color: var(--color-blue-light);
+    background-color: var(--color-blue-light-1);
     color: var(--color-blue-americanino);
     font-weight: bold;
     font-size: 1rem;
