@@ -100,6 +100,24 @@ input#searchCamp.form-control.search{
     z-index: 2;
 }
 
+/* campañas activas */
+.thumbnail-campain{
+    max-width: 640px;
+    min-width: 280px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.75rem;
+    /* background: url('assets') lightgray 50% / cover no-repeat; */
+    object-fit: cover;
+}
+
+.active-campain .card{
+    border: none;
+}
+.active-campain .card-body{
+    padding: 0;
+}
+
 @media (max-width: 767.98px) {
 
 }
