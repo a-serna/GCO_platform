@@ -17,8 +17,10 @@
     --color-grey-light-1: #D2D2D2;
     --color-grey-light-2: #ACACAC;
     --color-grey-light-3: #838382;
+    --color-success-light: #A8E7C5;
     --tamano-fuente: 16px;
     --border-1: 0.75rem;
+    --shadow-1: 1px 3px 6px 0 rgba(186, 186, 186, 0.25);
 }
 
 a{
@@ -37,6 +39,7 @@ body {
     font-weight: 400;
     background-color: var(--color-white);
     color: var(--color-black);
+    overflow-x: hidden;
 }
 
 /*Headings*/
@@ -64,7 +67,7 @@ h4,
 
 h3,
 .h3 {
-    font-size: 2.222rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -110,6 +113,24 @@ input[type=text]:focus {
 }
 
 .button-primary:hover {
+    background-color: var(--color-blue-light-2);
+}
+
+.button-secondary {
+    max-width: 320px;
+    min-width: 180px;
+    background-color: var(--color-grey-light-1);
+    color: var(--color-blue-americanino);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: var(--border-1);
+    border: none;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    text-align: center;
+}
+
+.button-secondary:hover {
     background-color: var(--color-blue-light-2);
 }
 

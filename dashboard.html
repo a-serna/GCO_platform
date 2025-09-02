@@ -43,7 +43,7 @@
   </div>
 
   <div class="row active-campain" id="campanasActivas">
-    <div class="col-md-4">
+    <div class="col-md-4 col-12">
       <div class="card mb-3">
         <div class="card-body">
           <img src="./Assets/thumbnail-campain.jpg" alt="" class="thumbnail-campain">
@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-12">
       <div class="card mb-3">
         <div class="card-body">
           <img src="./Assets/fashion-campain.png" alt="" class="thumbnail-campain">
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-12">
       <div class="card mb-3">
         <div class="card-body">
           <img src="./Assets/sale-campain.jpg" alt="" class="thumbnail-campain">
@@ -70,21 +70,30 @@
         </div>
       </div>
     </div>
+    <div class="col-12 text-end"><a href="" class="link-text">Ver más<img src="./Assets/chevron-icon.svg" alt=""></a></div>
   </div>
 
-  <!-- Notificaciones -->
-  <h3 class="mt-5">Notificaciones</h3>
-  <ul class="list-group mb-4">
-    <li class="list-group-item">Campaña Creada: Nueva campaña "Venta de Verano" creada por el equipo de mercadeo Chevignon.</li>
-    <li class="list-group-item">Informe Disponible: El informe de la campaña "Promoción de Padres" está listo.</li>
-  </ul>
-
-  <!-- Acceso rápido -->
-  <h3>Acceso Rápido</h3>
-  <div class="d-flex gap-3">
-    <button class="btn btn-primary">Crear Campaña</button>
-    <button class="btn btn-secondary">Ver Informes</button>
-  </div>
+  <!-- Notificaciones y accesos rapidos -->
+  <section class="row helpers">
+    <div class="col-md-6 col-12">
+      <h3 class="mt-5">Notificaciones</h3>
+      <div class="notification-container">
+        <figure class="icon-notification new-message"><img src="./Assets/Campain-icon.svg" alt=""></figure>
+        <div class="notification">
+          <p class="notification-title">Campaña Creada</p>
+          <p class="notification-message">Nueva campaña 'Venta de Verano' creada por pendiente por habilitar fechas de vigencia.</p>
+        </div>
+        <img src="./Assets/Close-icon.svg" alt="close">
+      </div>
+    </div>
+    <div class="col-md-6 col-12">
+      <h3 class="mt-5">Acceso Rápido</h3>
+      <div class="d-flex gap-3">
+        <button class="button-primary">Crear Campaña</button>
+        <button class="button-secondary">Ver Informes</button>
+      </div>
+    </div>
+  </section>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

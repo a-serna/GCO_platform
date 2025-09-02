@@ -118,6 +118,52 @@ input#searchCamp.form-control.search{
     padding: 0;
 }
 
+.link-text:hover{
+    color: var(--color-grey-light-3)
+}
+
+/* area de notificaciones y accesos rapidos */
+.helpers{
+    width: 100%;
+}
+
+.notification-container{
+    border-radius: 1rem;
+    background: var(--color-white);
+    box-shadow: 5px 5px 10px 1px #BABABA;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: start;
+}
+.notification{
+    padding: 0.5rem;
+}
+.notification-title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.notification-message{
+    margin-bottom: 0;
+}
+/* notificaciones acciones nuevas */
+.icon-notification.new-message{
+    background: var(--color-success-light);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.icon-notification img{
+    filter: invert(5%) sepia(3%) saturate(0%) hue-rotate(22deg) brightness(0%) contrast(80%);
+}
+/* notificaciones recordatorios */
+
+/* notificaciones alerta */
+
 @media (max-width: 767.98px) {
 
 }
